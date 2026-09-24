@@ -1,0 +1,11 @@
+# Demo target for validator-update-agent. Short image name "whoami" matches the
+# manifest's "whoami" group, so the agent will manage this container.
+# Runs through docker compose so the agent gets the compose labels it needs to recreate.
+name: whoami-demo
+
+services:
+  whoami:
+    image: traefik/whoami:v1.8.6
+    ports:
+      - "8888:80"
+    restart: unless-stopped
