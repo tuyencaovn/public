@@ -3,8 +3,8 @@
   "seq": 3,
   "groups": {
     "demo": {
-      "version": "v1.10.0",
-      "class": "needs-attention",
+      "version": "v1.100.0",
+      "class": "auto",
       "note": "Slack test — set ENV WHOAMI_FOO before updating (see release notes)",
       "images": [
         { "name": "whoami" }
