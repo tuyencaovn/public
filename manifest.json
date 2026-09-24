@@ -1,10 +1,11 @@
 {
   "schema": 1,
-  "seq": 1,
+  "seq": 3,
   "groups": {
     "demo": {
-      "version": "v1.9.0",
-      "class": "auto",
+      "version": "v1.10.0",
+      "class": "needs-attention",
+      "note": "Slack test — set ENV WHOAMI_FOO before updating (see release notes)",
       "images": [
         { "name": "whoami" }
       ]
